@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.MainSec3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.Sec3Left {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 88vw;
+}
+.Sec3Left:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+    border-top: 12px solid #F9C83A;
+    border-right: 12px solid #F9C83A;
+}
+.Sec3Left:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+     bottom: 0px;
+     left:0px;
+    border-bottom: 12px solid #F9C83A;
+    border-left: 12px solid #F9C83A;
+}
+
+
+
+.Sec3HeadContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.Sec3Head{
+    font-weight: 700;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+    line-height: 70px;
+}
+.Sec3Text1 {
+    color: black;
+    margin-left: 40px;
+
+}
+
+.Sec3Text2 {
+    color: black;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+.Sec3Text1 > p{
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Sec3Text2 > p{
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    
+}
+
+.Sec3btn {
+    padding: 14px 40px 14px 40px;
+    color: #ffffff;
+    margin-top: 10vh;
+    margin-bottom: 13vh;
+ background-color: #6d6b6b;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.15);
+    box-shadow:0px 0px 10px 0px rgb(119, 114, 114) ;
+}
+
+
+.Sec3Right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space1 {
+    height: 80px;
+}
+.midSpace {
+    height: 30px;
+}
+@media (max-width: 1246px) {
+    .Sec3Head {
+        font-size: 65px;
+        padding-top: 0px;
+        margin-top: 0px;
+        line-height: normal;
+    }
+}
+@media (max-width: 986px) {
+    .Sec3Head {
+        font-size: 55px;
+        padding-top: 0px;
+        margin-top: 0px;
+        line-height: 45px;
+    }
+
+    .Sec3Left {
+        display: flex;
+        flex-direction: column;
+    }
+    .Sec3Text1 {
+        color: black; 
+        margin-right: 0;
+        margin-left:0;
+    }
+    
+    .Sec3Text2 {
+        color: black;
+        margin-left:0;
+        margin-right: 0;
+    }
+
+  
+
+    .Sec3Left:before {
+         bottom: -10px;
+         left:-30px;
+    }
+
+    .Sec3Left:after {
+        top: -10px;
+        right: -30px;
+        }
+
+}
+
+@media (max-width: 650px) {
+    .Sec3Right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .space1 {
+        height: 30px;
+    }
+
+}

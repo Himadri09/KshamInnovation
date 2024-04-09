@@ -1,0 +1,96 @@
+
+.Card {
+    display: flex;
+    width: 480px;
+    padding: 12px;
+    height: 300px;
+    margin: 8px;
+    margin-right: 40px;
+    background:  #FFFFED;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 2px 2px 2px 2px rgb(195, 196, 192);
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+
+.cardImage {
+    margin: 16px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    background: #f2e4ba;
+    border-radius: 50%;
+}
+.cardImage img{
+    width: 36px;
+}
+.cardHeading {
+    font-weight: 700;
+    color: #F9C83A;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 8px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.rightSideCard>  ul {
+    margin-top: 8px;
+    padding-top: 0px;
+}
+
+li {
+    color: #6d6b6b;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;    
+}
+
+@media (max-width: 1378px) {
+    .Card {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 12px;
+        height: 270px;
+    }
+    .cardImage {
+        width: 32px;
+        height: 32px;
+    }
+    .cardImage img {
+        width: 22px;
+    }     
+    .cardHeading{
+        line-height: normal;
+        font-size: 18px;
+    }
+     li {
+        font-size: 16px;
+        line-height: normal;    
+    }
+}
+@media (max-width: 1028px) {
+    .Card {
+        width: 300px;
+        padding: 12px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 690px) {
+    .Card {
+        width: 250px;
+        padding: 12px;
+        height: 290px;
+    }
+
+}
+

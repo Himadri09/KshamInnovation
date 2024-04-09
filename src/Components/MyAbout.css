@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.aboutsectionheading span {
+	display: block;
+	font-family: "Montserrat", sans-serif;
+}
+.Ksham {
+	color: #474544;
+	margin-bottom: -10px;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.innovation {
+	color: #474544;
+	border-width: 0;
+	padding: 10px 0 0;
+	text-transform: uppercase;
+	font-size: 65px;
+	font-weight: 600;
+}
+
+.aboutsectionheading {
+	color: #474544;
+	text-align: center;
+}
+
+
+.quote {
+	color: #474544;
+	display:inline-block;
+	margin:18px;
+	overflow:hidden;
+	blockquote {
+	  background-color:#FFFFED;
+	  border: solid 2px #757575;
+	  display: inline-block;
+	  margin: 0;
+	  padding: 18px;
+	  position: relative;
+	  font-size: 20px;
+	}
+  }
+
+  .aboutSecHead{
+	color: #474544;
+	text-align: center;
+	font-size: 38px;
+  }
+
+
+  .animated-border-quote {
+	color: #474544;
+	display:inline-block;
+	margin:18px;
+	/* max-width:20em; */
+	overflow:hidden;
+	blockquote {
+		font-size: 20px;
+	  background-color:#FFFFED;
+	  border: solid 2px #757575;
+	  display: inline-block;
+	  margin: 0;
+	  padding: 18px;
+	  position: relative;
+	  &:before {
+		animation:clockwise 30s infinite linear;
+		background-color: #cbc0c0;
+		bottom:10%;
+		content: "";
+		left: 0;
+		opacity:.4;
+		position: absolute;
+		right: 0;
+		top:10%;
+	  }
+	  &:after {
+		animation:counter 30s infinite linear;
+		background-color: #e1d9d9;
+		bottom:10%;
+		content: "";
+		left: 0;
+		opacity:.4;
+		position: absolute;
+		right: 0;
+		top:10%;
+	  }
+	  
+	  > * {
+		position: relative;
+		z-index: 1;
+	  }
+	}
+  }
+  
+  @keyframes clockwise {
+	0% {
+	  transform:rotate(0);
+	}
+	100% {
+	  transform:rotate(360deg);
+	}
+  }
+  
+  @keyframes counter {
+	0% {
+	  transform:rotate(0);
+	}
+	100% {
+	  transform:rotate(-360deg);
+	}
+  }
+  
+
+  .abthead2{
+	text-align: center;
+	font-size: 38px;
+  }
+
+
+  .square-brackets-quote {
+	color: #474544;
+	display:inline-block;
+	margin:18px;
+	blockquote {
+		font-size: 20px;
+	  border:solid 16px #ccc;
+	  display:inline-block;
+	  margin:0;
+	  padding:18px;
+	  position:relative;
+	  &:before {
+		background-color: #FFFFED;
+		bottom: -18px;
+		content: "";
+		left: 45px;
+		position: absolute;
+		right: 45px;
+		top: -18px;
+	  }
+	  > * {
+		position: relative;
+		z-index: 1;
+	  }
+	}
+  }
+
+  
+  .discAbt{
+	text-align: center;
+	font-size: 38px;
+  }
+
+
+  @media (max-width:560px) {
+	.Ksham {
+		font-size: 40px;
+	}
+	
+	.innovation {
+		font-size: 55px;
+	}
+
+	.quote {
+		margin:16px;
+		blockquote {
+		  padding: 18px;
+		  font-size: 16px;
+		}
+	  }
+
+	  
+  .aboutSecHead{
+	font-size: 32px;
+  }
+
+
+  .animated-border-quote {
+	margin:16px;
+	blockquote {
+		font-size: 16px;
+	  padding: 18px;
+	}
+  }
+
+  .abthead2{
+	font-size: 32px;
+  }
+
+
+  .square-brackets-quote {
+	margin:18px;
+	blockquote {
+		font-size: 16px;
+	  padding:18px;
+	}
+  }
+
+  
+  .discAbt{
+	font-size: 32px;
+  }
+
+	
+}
+
+@media (max-width:400px) {
+	.Ksham {
+		font-size: 35px;
+	}
+	
+	.innovation {
+		font-size: 46px;
+	}
+
+	.quote {
+		margin:16px;
+		blockquote {
+		  padding: 18px;
+		  font-size: 15px;
+		}
+	  }
+
+	  
+  .aboutSecHead{
+	font-size: 30px;
+  }
+
+
+  .animated-border-quote {
+	margin:16px;
+	blockquote {
+		font-size: 15px;
+	  padding: 18px;
+	}
+  }
+
+  .abthead2{
+	font-size: 30px;
+  }
+
+
+  .square-brackets-quote {
+	margin:18px;
+	blockquote {
+		font-size: 15px;
+	  padding:18px;
+	}
+  }
+
+  
+  .discAbt{
+	font-size: 30px;
+  }
+
+	
+}
