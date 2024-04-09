@@ -29,14 +29,20 @@ export default function Footer() {
             <div className="subfootcontent1">
             <img className='subfoot1image' src='./images/call.png' alt="" />
                 <a href='tel:+91 9373124725' className="subfoot1">
-                     Call Us&emsp;
-                </a>|<a href="tel:+91 9373124725" className="subfoot1">&emsp;+91 9373124725</a>
+                     Call Us
+                </a>|<a href="tel:+91 9373124725" className="subfoot1">+91 9373124725</a>
             </div>
             <div className="subfootcontent2">
             <img className='subfoot2image' src='./images/mail.png' alt="" />
                 <a href="mailto:kshaminnovation@gmail.com" className="subfoot2">
-                    Email&emsp;
-                </a>|<a href="mailto:kshaminnovation@gmail.com" className="subfoot2"> &emsp;kshaminnovation@gmail.com</a>
+                    Email
+                </a>|<a href="mailto:kshaminnovation@gmail.com" className="subfoot2"> kshaminnovation@gmail.com</a>
+            </div>
+            <div className="subfootcontent3">
+            <img className='subfoot3image' src='./images/location.png' alt="" />
+                <a href="https://www.google.com/maps/place/Naya+akola,+Maharashtra+444801/@21.0296074,77.6557493,12z/data=!3m1!4b1!4m6!3m5!1s0x3bd696073cacf6e7:0xd16985c8a3df6f91!8m2!3d21.044212!4d77.6307018!16s%2Fg%2F1hhvnd67g?entry=ttu" className="subfoot3">
+                    Location
+                </a>|<a href="https://www.google.com/maps/place/Naya+akola,+Maharashtra+444801/@21.0296074,77.6557493,12z/data=!3m1!4b1!4m6!3m5!1s0x3bd696073cacf6e7:0xd16985c8a3df6f91!8m2!3d21.044212!4d77.6307018!16s%2Fg%2F1hhvnd67g?entry=ttu" className="subfoot3">Naya akola, Maharashtra 444801 </a>
             </div>
         </div>
 
